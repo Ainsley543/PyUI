@@ -3,7 +3,7 @@ from time import sleep
 
 class Window:
 
-    def __init__(self, title="Test App", colorRGB=False):
+    def __init__(self, title="Test App", colorRGB=False, customIconPath=False):
         pygame.init()
         self.screenDims = (800,600)
         self.screen = pygame.display.set_mode(self.screenDims, pygame.RESIZABLE)
